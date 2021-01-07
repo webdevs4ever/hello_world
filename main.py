@@ -1,28 +1,29 @@
-## Description below of one of my favorite album cuts from Sam Hunt--a perfect amuse bouche of hip hop, country and blues
+## Description below for Python's "if" conditionals in Chapter Three
+breakfastTime = True
+lunchTime = False
+PaneraPick2 = "Eat SmokeBBQChicken"
+KekePick2 = "Eat Pancakes"
+cryptoWallet = True
 
-def Artist():
-    print ("Sam Hunt")
-def Song():
-    print ("Hard To Forget")
-def OriginalSource():
-    print (1957)
+if breakfastTime == True and cryptoWallet == True:
+    PaneraPick2 = "Eat SmokeBBQChicken because it's the best deal"
 
-Artist()
-Song()
-OriginalSource()
-
-"""
-My extra credit assigment evaluates the question of "Is 'Hard to Forget' influenced by Kanye's krazy tweets or nah?"
-And I print a conditional based on a boolean to give me one possible answer.
-
-"""
-hip = 2
-hop = 1
-
-if hip > hop:
-    print ("Luke Laird loves Kanye so of course 'Hard To Forget' is influenced by Kanye")
+elif lunchTime == True:
+    print(KekePick2)
 else:
-    print("Or Nah") 
+    print("You can always go to McDonalds")
+
+print(breakfastTime)
+
+## Extra credit goes here...more breakfast talk
+breakfastCoins = 5
+lunchCoins = "11 bucks"
+dinnerCoins = "20 bucks"
+
+if breakfastCoins <= 5 and int(lunchCoins) > 10:
+    print("Time to go to lunch")
+print(breakfastCoins)
+
 
 
 
