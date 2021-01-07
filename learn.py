@@ -2,6 +2,8 @@
  ## PI = 3.1413
  ## print(PI)
 
+ ## Check Legacy.py for all solutions and past answers
+
 one = 1
 two = 2
 three = 3
