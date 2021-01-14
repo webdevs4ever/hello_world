@@ -17,8 +17,8 @@ print(breakfastTime)
 
 ## Extra credit goes here...more breakfast talk
 breakfastCoins = 5
-lunchCoins = "11 bucks"
-dinnerCoins = "20 bucks"
+lunchCoins = ["11"]
+dinnerCoins = ["20"]
 
 if breakfastCoins <= 5 and int(lunchCoins) > 10:
     print("Time to go to lunch")
