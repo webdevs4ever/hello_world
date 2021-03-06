@@ -8,3 +8,7 @@ def addStuff(values):
     return myUniqueList
 
 print(addStuff(1))
+
+## I am expecting only numbers to be added to the global unique list but my output seems to resolve to an infinite loop only
+## Also no luck on creating a function that only accepts unique values but we haven't gotten to sets/dictionaries in Python yet so this
+## problem set is confusing. Would appreciate HELP. A similar problem set should be all I need....desperately lost... TYVM 
